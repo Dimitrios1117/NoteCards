@@ -4,7 +4,7 @@ You can click on these categories to then enter them and create notecards for th
 your finger over any category and swipe to the left to bring up two boxed items. One is used to delete said category and the other one is to modify the category in case you want to
 change its name. 
 
-The functionality of having a litview that supports swiping was integrated into my project. This is a really nice library that was found here on github.
+The functionality of having a listview that supports swiping was integrated into my project. This is a really nice library that was found here on github.
 
 Link: https://github.com/baoyongzhang/SwipeMenuListView
 
