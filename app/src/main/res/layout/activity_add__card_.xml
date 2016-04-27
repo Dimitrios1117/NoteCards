@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    tools:context="com.example.dimitrios.myapplication.Add_Card_Activity"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Question"
+            android:id="@+id/textView"
+            android:textColor="#ffff33"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:gravity="bottom" />
+
+        <EditText
+            android:layout_width="225dp"
+            android:layout_height="match_parent"
+            android:id="@+id/editText"
+            android:textColor="#ffff33"
+            android:textIsSelectable="false"
+            android:theme = "@style/MyEditTextTheme"
+            android:gravity="bottom"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.20"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:text="Commit"
+            android:id="@+id/c_button"
+            android:layout_weight="0.48"
+            android:layout_gravity="bottom"
+            android:textColor="#ffff33"
+            android:textSize="22dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.22">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Answer"
+            android:id="@+id/textView2"
+            android:layout_weight="1"
+            android:textColor="#ffff33"
+            android:textSize="20dp"
+            android:gravity="bottom" />
+
+        <EditText
+            android:layout_width="225dp"
+            android:layout_height="match_parent"
+            android:id="@+id/editText2"
+            android:textColor="#ffff33"
+            android:theme = "@style/MyEditTextTheme"
+            android:gravity="bottom" />
+    </LinearLayout>
+</LinearLayout>

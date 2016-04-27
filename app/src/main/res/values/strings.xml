@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Notecards</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="default_question">Question here.</string>
+    <string name="default_answer">Answer here.</string>
+    <string name="delete">Delete</string>
+    <string name="modify">Modify</string>
+    <string name="create">Create</string>
+</resources>

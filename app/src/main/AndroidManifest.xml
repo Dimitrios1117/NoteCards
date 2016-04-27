@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dimitrios.swipe_testing">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/notecards"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme">
+        <activity
+            android:name="com.example.dimitrios.NoteCards.MainActivity">
+            android:label ="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    <activity android:name="com.example.dimitrios.NoteCards.Cards" />
+    <activity android:name="com.example.dimitrios.NoteCards.Add_Card_Activity" />
+    <activity android:name="com.example.dimitrios.NoteCards.Create_Category">
+    </activity>
+    </application>
+
+</manifest>

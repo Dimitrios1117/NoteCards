@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}"
+    android:background="#0b0a0a">
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="65dp"
+        android:text="Create new category"
+        android:id="@+id/create_category"
+        android:textColor="#000000"
+        android:background="#f2e70d"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp" />
+
+    <com.baoyz.swipemenulistview.SwipeMenuListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#070707"
+        android:dividerHeight="-7dp"
+        android:layout_marginTop="2dp" />
+
+</LinearLayout>
